@@ -1,0 +1,131 @@
+@font-face{
+    font-family: 'Chicken_Soup';
+    src: url(ChickenSoup.ttf);
+}
+body{
+    text-align: center;
+    font-family:Chicken_Soup ;
+}
+#fontlogo{
+    float: center;
+    height: 60;
+    width: 140;
+}
+#icon{
+    float: left;
+    display: block;
+    height: 40px;
+    width: 40px;
+} 
+.menu{
+    background-color: #0d1e39;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu > ul > li {
+    float: left;
+}
+
+
+.menu li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #0d1e39;
+}
+
+.dropdown:hover .pilihan {
+    display: block;
+}
+
+.pilihan a:hover {
+    color: #e1e7f2 !important;
+}
+
+.pilihan {
+    font-size: 20px;
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px #0d1e39;
+    z-index: 1;
+    background-color: #e1e7f2;
+}
+
+.pilihan a {
+    color: #0d1e39 !important;
+}
+
+.pilihan a:hover {
+    font-size: 21px;
+    color: #0d1e39 !important;
+    background: #96b3e9 !important;
+}
+.home{
+    background: url('home1.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e1e7f2;
+    text-align: center;
+    color: #0d1e39;
+}
+.home h1{
+    font-size: 50px;
+}
+.home h2{
+    font-size: 35px;
+}
+p{
+    font-size: 25px;
+    font-family: Chicken_Soup;
+}
+.varian{
+    color: #e1e7f2;
+    background-color: #0d1e39;
+}
+.varian table{
+    text-align: center;
+    border: 0;
+}
+.varian img{
+    width: 245px;
+    height: 245px;
+}
+#pearl{
+    width: 550px;
+    height: 200px;
+}
+.varian p{
+    color: #e1e7f2;
+}
+.lokasi{
+    background-color: #e1e7f2;
+    color: #0d1e39;
+}
+.tentang{
+    color: #e1e7f2;
+    background-color: #0d1e39;
+}
+.tentang img{
+    width: 200px;
+    height: 200px;
+}
+.hubungi{
+    background-color: #e1e7f2;
+    color: #0d1e39;
+    text-align: center;
+}
+.hubungi img{
+    height: 20px;
+    width: 20px;
+}
